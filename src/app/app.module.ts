@@ -8,6 +8,11 @@ import { HomeComponent } from './home/home.component';
 import { BannerComponent } from './home/banner/banner.component';
 import { AboutComponent } from './home/about/about.component';
 import { StackComponent } from './home/stack/stack.component';
+import { ServicesComponent } from './home/services/services.component';
+import { PortfolioComponent } from './home/portfolio/portfolio.component';
+import { TestimoniesComponent } from './home/testimonies/testimonies.component';
+import { ContactComponent } from './home/contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +22,12 @@ import { StackComponent } from './home/stack/stack.component';
     HomeComponent,
     BannerComponent,
     AboutComponent,
-    StackComponent
+    StackComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    TestimoniesComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
